@@ -1,5 +1,5 @@
-import React from 'react'
-import Data from './Data'
+import React from 'react';
+import DisplayData from './DisplayData';
 
 class Dashboard extends React.Component {
     state = {
@@ -70,7 +70,7 @@ class Dashboard extends React.Component {
     render() {
         return (
             <div className="Dashboard">
-                <Data dataList={this.state.dataJSON}/>
+                <DisplayData dataList={this.state.dataJSON}/>
             </div>
         )
     }

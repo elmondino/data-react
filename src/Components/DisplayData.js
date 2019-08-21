@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 
-class Data extends Component {
+class DisplayData extends Component {
     state = {
         dataList: this.props.dataList,
         show: true
@@ -58,4 +58,4 @@ class Data extends Component {
     }
 }
 
-export default Data;
+export default DisplayData;

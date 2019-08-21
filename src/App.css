@@ -1,0 +1,42 @@
+.App {
+    background-color: #282c34;
+    min-height: 100vh;
+    color: #fff;
+}
+.form__container {
+    margin: 40px;
+}
+.form__item {
+    padding: 10px;
+    background-color: #7fbf7f;
+    margin: 10px 0;
+}
+.form__item > ul {
+    margin: 0;
+}
+.form__item--green {
+    background-color: rgba(0, 128, 0, 0.5);
+}
+.form__item--dark-blue {
+    background-color: #223a6b;
+
+}
+.form__item--blue {
+    background-color: #0000ff99;
+}
+.form__button {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ed3330;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+}
+.form__button:active {
+    background: rgba(0, 0, 255, 0.6);
+    -webkit-box-shadow: 0 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0 5px 40px -10px rgba(0, 0, 0, 0.57);
+    box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+}
